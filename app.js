@@ -10,12 +10,11 @@ const port = 5000;
 
 // Create a MySQL connection
 const connection = mysql.createConnection({
-  host: 'localhost',
-  user: 'root',
-  password: '',
+  host: '127.0.0.1',
+  user: 'admin',
+  password: 'Prabisha@2024!',
   database: 'pb_contacts'
 });
-
 // Connect to the MySQL server
 connection.connect((err) => {
   if (err) {
